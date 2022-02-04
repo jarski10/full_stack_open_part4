@@ -1,0 +1,26 @@
+{
+  "name": "bloglist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarski10/full_stack_open_part4.git"
+  },
+  "author": "Jarkko Passi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarski10/full_stack_open_part4/issues"
+  },
+  "homepage": "https://github.com/jarski10/full_stack_open_part4#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+    "title": "Otsikko",
+    "author": "Jarkko",
+    "url": "abc.www",
+    "likes": 300
+}
+
+#GET http://localhost:3001/api/blogs
