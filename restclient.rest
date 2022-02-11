@@ -1,13 +1,13 @@
-POST http://localhost:3001/api/blogs
-Content-Type: application/json
+# POST http://localhost:3001/api/blogs
+# Content-Type: application/json
 
-{
-    "title": "Otsikko15",
-    "author": "Jarkko",
-    "url": "abc.www",
-    "likes": 301,
-    "userId": "62063b535db5616485a6039f"
-}
+# {
+#     "title": "Otsikko15",
+#     "author": "Jarkko",
+#     "url": "abc.www",
+#     "likes": 301,
+#     "userId": "62063b535db5616485a6039f"
+# }
 
 #GET http://localhost:3001/api/blogs
 
@@ -17,7 +17,35 @@ Content-Type: application/json
 # Content-Type: application/json
 
 # {
+#     "username": "jarkko",
+#     "name": "Jarkko",
+#     "password": "password"
+# }
+
+# POST http://localhost:3001/api/login
+# Content-Type: application/json
+
+# {
 #     "username": "root",
-#     "name": "Superuser",
 #     "password": "salainen"
 # }
+
+# POST http://localhost:3001/api/login
+# Content-Type: application/json
+
+# {
+#     "username": "jarkko",
+#     "password": "password"
+# }
+
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImphcmtrbyIsImlkIjoiNjIwNjY0ZWFiYmEyOTRjNDgyMmE5MGY0IiwiaWF0IjoxNjQ0NTg2MjM4fQ.-lvkSmwAwon-u41HB9t7pUEvWNJjj0jp5q6m7amU8QY
+
+{
+    "title": "Otsikko146666611",
+    "author": "Jarkko",
+    "url": "abc.www",
+    "likes": 302
+    //"userId": "620664eabba294c4822a90f4"
+}
