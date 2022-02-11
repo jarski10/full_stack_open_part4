@@ -5,9 +5,19 @@ Content-Type: application/json
     "title": "Otsikko15",
     "author": "Jarkko",
     "url": "abc.www",
-    "likes": 301
+    "likes": 301,
+    "userId": "62063b535db5616485a6039f"
 }
 
 #GET http://localhost:3001/api/blogs
 
-DELETE http://localhost:3001/api/blogs/6206244f07fd6c2a0725077c
+#DELETE http://localhost:3001/api/blogs/6206244f07fd6c2a0725077c
+
+# POST http://localhost:3001/api/users
+# Content-Type: application/json
+
+# {
+#     "username": "root",
+#     "name": "Superuser",
+#     "password": "salainen"
+# }
