@@ -2,10 +2,12 @@ POST http://localhost:3001/api/blogs
 Content-Type: application/json
 
 {
-    "title": "Otsikko",
+    "title": "Otsikko15",
     "author": "Jarkko",
     "url": "abc.www",
-    "likes": 300
+    "likes": 301
 }
 
 #GET http://localhost:3001/api/blogs
+
+DELETE http://localhost:3001/api/blogs/6206244f07fd6c2a0725077c
